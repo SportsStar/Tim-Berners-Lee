@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+
+.profile {
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgb(48, 183, 106)0%, rgb(108, 184, 67)100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+#name {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 50px;
+}
+
+#bio {
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+
+}
+
+.links {
+    display: inline;
+
+    padding-left: 33px;
+    padding-right: 25px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact {
+    background: lightgray;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: green !important;
+    font-size: 20px !important;
+}
